@@ -1,0 +1,6 @@
+framework module LRB_section {
+  umbrella header "LRB_section-umbrella.h"
+
+  export *
+  module * { export * }
+}

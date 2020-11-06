@@ -1,0 +1,35 @@
+PODS:
+  - CTMediator (44)
+  - LR_Category (0.0.1):
+    - CTMediator
+  - LRA_section (2.0.1):
+    - LRB_Category
+  - LRB_Category (0.0.1):
+    - CTMediator
+  - LRB_section (0.0.1)
+
+DEPENDENCIES:
+  - CTMediator
+  - LR_Category
+  - LRA_section
+  - LRB_Category
+  - LRB_section
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+    - LR_Category
+    - LRA_section
+    - LRB_Category
+    - LRB_section
+
+SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  LR_Category: dc3af7f168e7ad7ded734a4056ab254003f04689
+  LRA_section: 8b238ffc0b43df2626b732c812eafab6fa77d5d3
+  LRB_Category: 18fcad6249b549bc5bc865727c1d21f5e36c32db
+  LRB_section: 811f3ba101c048ffa793a1feeb9eff08de11586e
+
+PODFILE CHECKSUM: a94ffe6766d3dee92d2b587305258b3010263c21
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,20 @@
+platform :ios, '8.0'
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/RainyofSun/A_Category.git'
+source 'https://github.com/RainyofSun/B_Category.git'
+source 'https://github.com/RainyofSun/A_section.git'
+source 'https://github.com/RainyofSun/B_section.git'
+
+def all_Pods
+    pod 'CTMediator'
+    pod 'LR_Category'
+    pod 'LRB_Category'
+    pod 'LRA_section'
+    pod 'LRB_section'
+end
+
+target 'MainProject'do
+   all_Pods
+end
