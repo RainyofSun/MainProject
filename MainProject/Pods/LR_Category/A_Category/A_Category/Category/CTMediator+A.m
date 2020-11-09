@@ -10,8 +10,15 @@
 
 @implementation CTMediator (A)
 
-- (UIViewController *)A_aViewController {
-    return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
+- (UIViewController *)A_aViewControllerMoneyAction:(void (^)(NSDictionary * _Nonnull))moneyAction userAction:(void (^)(NSDictionary * _Nonnull))userAction {
+    NSMutableDictionary *paramsToSend = [NSMutableDictionary dictionary];
+    if (moneyAction) {
+        [paramsToSend setObject:moneyAction forKey:@"moneyAction"];
+    }
+    if (userAction) {
+        [paramsToSend setObject:userAction forKey:@"userAction"];
+    }
+    return [self performTarget:@"A" action:@"viewController" params:paramsToSend shouldCacheTarget:NO];
 }
 
 @end

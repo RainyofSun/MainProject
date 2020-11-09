@@ -1,8 +1,8 @@
 PODS:
   - CTMediator (44)
-  - LR_Category (0.0.1):
+  - LR_Category (1.0.1):
     - CTMediator
-  - LRA_section (2.0.1):
+  - LRA_section (2.0.2):
     - LRB_Category
   - LRB_Category (0.0.1):
     - CTMediator
@@ -25,8 +25,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
-  LR_Category: dc3af7f168e7ad7ded734a4056ab254003f04689
-  LRA_section: 8b238ffc0b43df2626b732c812eafab6fa77d5d3
+  LR_Category: aede25a0e611cb0b1a8283bcc2508f5bae163aa9
+  LRA_section: e6746e2907dfaaf40449bcd8fb9d2a1e1dfa241e
   LRB_Category: 18fcad6249b549bc5bc865727c1d21f5e36c32db
   LRB_section: 811f3ba101c048ffa793a1feeb9eff08de11586e
 

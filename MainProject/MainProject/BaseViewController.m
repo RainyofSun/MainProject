@@ -23,7 +23,11 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.navigationController pushViewController:[[CTMediator sharedInstance] A_aViewController] animated:YES];
+    [self.navigationController  pushViewController:[[CTMediator sharedInstance] A_aViewControllerMoneyAction:^(NSDictionary * _Nonnull info) {
+        NSLog(@"money info %@",info);
+    } userAction:^(NSDictionary * _Nonnull info) {
+        NSLog(@"userInfo %@",info);
+    }] animated:YES];
 }
 
 /*
