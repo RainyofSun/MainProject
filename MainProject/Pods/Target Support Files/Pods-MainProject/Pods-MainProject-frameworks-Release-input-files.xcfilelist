@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
 ${BUILT_PRODUCTS_DIR}/LRA_section/LRA_section.framework
 ${BUILT_PRODUCTS_DIR}/LRB_Category/LRB_Category.framework
 ${BUILT_PRODUCTS_DIR}/LRB_section/LRB_section.framework

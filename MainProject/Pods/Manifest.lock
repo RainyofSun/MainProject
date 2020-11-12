@@ -1,4 +1,7 @@
 PODS:
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
   - CTMediator (44)
   - LR_Category (1.0.1):
     - CTMediator
@@ -9,6 +12,7 @@ PODS:
   - LRB_section (0.0.1)
 
 DEPENDENCIES:
+  - CocoaLumberjack
   - CTMediator
   - LR_Category
   - LRA_section
@@ -17,6 +21,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - CocoaLumberjack
     - CTMediator
     - LR_Category
     - LRA_section
@@ -24,12 +29,13 @@ SPEC REPOS:
     - LRB_section
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
   LR_Category: aede25a0e611cb0b1a8283bcc2508f5bae163aa9
   LRA_section: e6746e2907dfaaf40449bcd8fb9d2a1e1dfa241e
   LRB_Category: 18fcad6249b549bc5bc865727c1d21f5e36c32db
   LRB_section: 811f3ba101c048ffa793a1feeb9eff08de11586e
 
-PODFILE CHECKSUM: a94ffe6766d3dee92d2b587305258b3010263c21
+PODFILE CHECKSUM: 2371b1478ec58c53604b6d45a2230c9e955777b3
 
 COCOAPODS: 1.10.0

@@ -11,6 +11,9 @@
 
 @interface BaseViewController ()
 
+/** timeLab */
+@property (nonatomic,strong) UILabel *timeLab;
+
 @end
 
 @implementation BaseViewController
@@ -20,6 +23,9 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor orangeColor];
     self.title = @"我是base";
+    [self.view addSubview:self.timeLab];
+    self.timeLab.frame = CGRectMake(100, 100, 80, 80);
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showTime:) name:@"speed" object:nil];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -28,6 +34,18 @@
     } userAction:^(NSDictionary * _Nonnull info) {
         NSLog(@"userInfo %@",info);
     }] animated:YES];
+}
+
+- (void)showTime:(NSNotification *)notification {
+    [self.timeLab setText:[NSString stringWithFormat:@"时间: %@s",(NSNumber *)notification.object]];
+}
+
+#pragma mark - lazy
+- (UILabel *)timeLab {
+    if (!_timeLab) {
+        _timeLab = [[UILabel alloc] init];
+    }
+    return _timeLab;
 }
 
 /*

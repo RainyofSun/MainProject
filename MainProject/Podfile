@@ -13,6 +13,7 @@ def all_Pods
     pod 'LRB_Category'
     pod 'LRA_section'
     pod 'LRB_section'
+    pod 'CocoaLumberjack'
 end
 
 target 'MainProject'do

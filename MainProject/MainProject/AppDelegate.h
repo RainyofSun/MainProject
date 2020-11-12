@@ -11,6 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow * window;
+/** time */
+@property (nonatomic,assign) NSInteger time;
 
 @end
 

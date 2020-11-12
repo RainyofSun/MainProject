@@ -1,9 +1,9 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/LRA_section" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_Category" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_section" "${PODS_CONFIGURATION_BUILD_DIR}/LR_Category"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/LRA_section" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_Category" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_section" "${PODS_CONFIGURATION_BUILD_DIR}/LR_Category"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LRA_section/LRA_section.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_Category/LRB_Category.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_section/LRB_section.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LR_Category/LR_Category.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjack.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LRA_section/LRA_section.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_Category/LRB_Category.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LRB_section/LRB_section.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LR_Category/LR_Category.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "CTMediator" -framework "CoreGraphics" -framework "Foundation" -framework "LRA_section" -framework "LRB_Category" -framework "LRB_section" -framework "LR_Category" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -framework "CTMediator" -framework "CocoaLumberjack" -framework "CoreGraphics" -framework "Foundation" -framework "LRA_section" -framework "LRB_Category" -framework "LRB_section" -framework "LR_Category" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -176,6 +176,7 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LRA_section/LRA_section.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LRB_Category/LRB_Category.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LRB_section/LRB_section.framework"
@@ -183,6 +184,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LRA_section/LRA_section.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LRB_Category/LRB_Category.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LRB_section/LRB_section.framework"
